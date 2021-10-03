@@ -54,7 +54,7 @@ public class LinkChecker {
 
         try {
             Connection.Response response = Jsoup.connect(receivedUrl).timeout(6000).execute();
-            if (response.statusCode() != 200) {
+            if (response.statusCode() < 200 || response.statusCode() >= 400) {
                 return true;
             }
 
