@@ -60,7 +60,7 @@ public class LinkChecker {
 
             URL baseUrl = new URL(allLinks.get(0));
             URL currUrl = new URL(receivedUrl);
-            if (!baseUrl.getHost().equals(currUrl.getHost()) || baseUrl.getPort() != currUrl.getPort()) {
+            if (!baseUrl.getHost().equals(currUrl.getHost()) || !baseUrl.getProtocol().equals(currUrl.getProtocol())) {
                 return false;
             }
 
