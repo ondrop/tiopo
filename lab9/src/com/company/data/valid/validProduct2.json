@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "category_id": 14,
+  "title": "тест 1",
+  "alias": "test 1",
+  "content": "content",
+  "price": 99,
+  "old_price": 100,
+  "status": 1,
+  "keywords": "keyword 1",
+  "description": "description 1",
+  "hit": 1
+}

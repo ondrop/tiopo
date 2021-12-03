@@ -1,0 +1,13 @@
+{
+  "id": 523,
+  "category_id": 10,
+  "title": "новый текст",
+  "alias": "novyy-tekst",
+  "content": "new content",
+  "price": 150,
+  "old_price": 99,
+  "status": 1,
+  "keywords": "new keyword 1",
+  "description": "new description 1",
+  "hit": 1
+}
